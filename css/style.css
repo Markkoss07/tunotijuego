@@ -1,0 +1,25 @@
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+header div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+header a{
+    color: red;
+    text-decoration: none;
+    padding: 0px 12px;
+
+}
+
