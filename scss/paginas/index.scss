@@ -2,13 +2,29 @@ main{
     height: 2000px;
     .fondodelCarrusel{
         width: 100%;
-        height: 500px;
-        background-color: rgba(7, 6, 6, 0.873);
-        .carousel-inner{
-            width: 80%;
+        height: 470px;
+        background: linear-gradient(to left, white, rgb(164, 2, 2), white);
+        #carouselExampleAutoplaying{
+            width: 50%;
             height: 100%;
-            img{
-                background-size: cover;
+            margin: auto;
+            border-radius: 10px solid rgb(245, 244, 244);
+            .carousel-item{
+                height: 100%; 
+                    img{
+                        height: 100%; 
+                    }
+
+                    
+            }
+
+            .carousel-control-prev{
+                background-color: black;
+                width: 3%;
+            }
+            .carousel-control-next{
+                background-color: black;
+                width: 3%;
             }
         }
     }

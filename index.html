@@ -13,30 +13,43 @@
     </head>
     <body>
         <header>
-            <div>
-                <img src="./imagenes/logo de pagina1.png" alt="">
-                <h1>El Notijuegos</h1>
-            </div>
-            <ul>
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./paginas/exitos.html">Exitos</a></li>
-                <li><a href="">Pc & Consola</a></li>
-                <li><a href="">Nintendo</a></li>
-                <li><a href="">Sobre Nosotros</a></li>
-            </ul>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              <div class="container-fluid">
+                <img src="./imagenes/logo de pagina1.png" alt="#">
+                <h1 class="navbar-brand" href="./index.html">El Notijuegos</h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    <a class="nav-link" href="./paginas/exitos.html">Exitos</a>
+                    <a class="nav-link" href="./paginas/pc-consola.html">Pc & Consola</a>
+                    <a class="nav-link" href="./paginas/nintendo.html">Nintendo</a>
+                    <a class="nav-link" href="./paginas/sobre-nosotros.html">Sobre Nosotros</a>
+                  </div>
+                </div>
+              </div>
+            </nav>
         </header>
         <main>
           <div class="fondodelCarrusel">
-            <div id="carouselExampleAutoplaying" id="carroselGeneral" class="carousel slide" data-bs-ride="carousel">
+            <div id="carouselExampleAutoplaying"  class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="./imagenes/valorant.jpg" class="d-block w-100" alt="...">
+                    <a href="https://playvalorant.com/es-mx/?gad=1&gclid=EAIaIQobChMIhvn7z-2y_wIVD0KRCh0hzQe7EAAYASAAEgJkcvD_BwE&gclsrc=aw.ds" target="_blank">
+                      <img src="./imagenes/valorant.jpg" class="d-block w-100" alt="..." >
+                    </a>
                   </div>
                   <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
+                    <a href="https://www.ea.com/es-es/games/starwars/jedi/jedi-survivor" target="_blank">
+                    <img src="./imagenes/Star-Wars-Jedi-Survivor.jpg" class="d-block w-100" alt="...">
+                    </a>
                   </div>
                   <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
+                    <a href="https://www.ea.com/es-mx/games/fifa/fifa-23" target="_blank">
+                    <img src="./imagenes/Fifa23.jpg" class="d-block w-100" alt="...">
+                    </a>
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
