@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 @keyframes cambiar {
   0% {
     background-position: 0 50%;
@@ -239,13 +240,667 @@ footer div .logos-footer a img {
   width: 100%;
 }
 
-main {
+#main-exitos {
+  height: 2900px;
+  width: 100%;
+  background: linear-gradient(45deg, rgb(54, 4, 4), rgb(143, 3, 3), rgb(54, 4, 4), rgb(160, 2, 2));
+  background-size: 400% 400%;
+  position: relative;
+  animation: cambiar 9s linear infinite;
+}
+#main-exitos h3 {
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue";
+  font-weight: bold;
+  font-size: 50px;
+  font-weight: 450;
+  color: #fdc6c1;
+  padding-top: 60px;
+}
+#main-exitos .btn-group {
+  margin-left: 60px;
+  margin-top: 60px;
+}
+#main-exitos .btn-group .btn {
+  font-family: "Alegreya";
+  font-size: 18px;
+}
+#main-exitos .exitosos {
+  width: 80%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+#main-exitos .exitosos .juegoExitosos1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.13);
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.13);
+  -moz-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.13);
+}
+#main-exitos .exitosos .juegoExitosos1 div {
+  height: 100%;
+}
+#main-exitos .exitosos .juegoExitosos1 div img {
+  border-top-left-radius: 15px;
+  width: 100%;
+  height: 100%;
+}
+#main-exitos .exitosos .juegoExitosos1 .relleno-juegos {
+  width: 50%;
+  margin-right: 15px;
+}
+#main-exitos .exitosos .juegoExitosos1 .relleno-juegos h4 {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+#main-exitos .exitosos .juegoExitosos1 .relleno-juegos p {
+  font-family: "Roboto Condensed";
+  text-align: center;
+  color: black;
+  font-size: 23px;
+  margin-top: 30px;
+}
+#main-exitos .accordion {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#main-exitos .accordion .accordion-item {
+  width: 100%;
+}
+#main-exitos .accordion .accordion-item .accordion-header button {
+  height: 20px;
+  background-color: white;
+}
+#main-exitos .accordion .accordion-item .accordion-collapse {
+  height: 730px;
+}
+#main-exitos .accordion .accordion-item .accordion-collapse .accordion-abajo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+#main-exitos .accordion .accordion-item .accordion-collapse .accordion-abajo div {
+  width: 40%;
+  margin-top: 40px;
+}
+#main-exitos .accordion .accordion-item .accordion-collapse .accordion-abajo div .titulos-subAccordion {
+  color: black;
+  font-weight: bold;
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+}
+#main-exitos .accordion .accordion-item .accordion-collapse .accordion-abajo div .parrafos-subtitos {
+  margin-top: -10px;
+}
+#main-exitos .accordion .accordion-item .accordion-collapse .img-abajo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
+#main-exitos .accordion .accordion-item .accordion-collapse .img-abajo img {
+  width: 30%;
+  padding: 0px 12px;
+}
+#main-exitos .relleno-juegos1 {
+  width: 50%;
+  margin-right: 15px;
+}
+#main-exitos .relleno-juegos1 h4 {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+#main-exitos .relleno-juegos1 p {
+  font-family: "Roboto Condensed";
+  text-align: center;
+  color: black;
+  font-size: 23px;
+  margin-top: 30px;
+}
+#main-exitos .accordion-collapse .video-abajo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+#main-exitos .accordion-collapse .video-abajo iframe {
+  width: 30%;
+  padding: 0px 12px;
+}
+#main-exitos .exitosos3 {
+  width: 80%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+#main-exitos .exitosos3 .juegoExitosos1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.13);
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.13);
+  -moz-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.13);
+}
+#main-exitos .exitosos3 .juegoExitosos1 div {
+  height: 100%;
+}
+#main-exitos .exitosos3 .juegoExitosos1 div img {
+  border-top-left-radius: 15px;
+  width: 100%;
+  height: 100%;
+}
+#main-exitos .exitosos3 .juegoExitosos1 .relleno-juegos {
+  width: 50%;
+  margin-right: 15px;
+}
+#main-exitos .exitosos3 .juegoExitosos1 .relleno-juegos h4 {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+#main-exitos .exitosos3 .juegoExitosos1 .relleno-juegos p {
+  font-family: "Roboto Condensed";
+  text-align: center;
+  color: black;
+  font-size: 23px;
+  margin-top: 30px;
+}
+
+#main-exitos {
+  height: 2900px;
+  width: 100%;
+  background: linear-gradient(45deg, rgb(54, 4, 4), rgb(143, 3, 3), rgb(54, 4, 4), rgb(160, 2, 2));
+  background-size: 400% 400%;
+  position: relative;
+  animation: cambiar 9s linear infinite;
+}
+#main-exitos h3 {
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue";
+  font-weight: bold;
+  font-size: 50px;
+  font-weight: 450;
+  color: #fdc6c1;
+  padding-top: 60px;
+}
+#main-exitos .btn-group {
+  margin-left: 60px;
+  margin-top: 60px;
+}
+#main-exitos .btn-group .btn {
+  font-family: "Alegreya";
+  font-size: 18px;
+}
+#main-exitos .exitosos .juegoExitosos1 .relleno-juegosAmong {
+  width: 40%;
+  margin-top: 50px;
+  margin-right: 60px;
+}
+#main-exitos .exitosos .juegoExitosos1 .relleno-juegosAmong h4 {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+#main-exitos .exitosos .juegoExitosos1 .relleno-juegosAmong p {
+  font-family: "Roboto Condensed";
+  text-align: center;
+  color: black;
+  font-size: 23px;
+  margin-top: 30px;
+}
+#main-exitos .accordion .accordion-collapse {
+  height: 730px;
+}
+#main-exitos .accordion .accordion-collapse .img-abajo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
+#main-exitos .accordion .accordion-collapse .img-abajo img {
+  width: 10%;
+  height: 250px;
+  padding: 0px 12px;
+}
+
+#main-exitos {
+  height: 2900px;
+  width: 100%;
+  background: linear-gradient(45deg, rgb(54, 4, 4), rgb(143, 3, 3), rgb(54, 4, 4), rgb(160, 2, 2));
+  background-size: 400% 400%;
+  position: relative;
+  animation: cambiar 9s linear infinite;
+}
+#main-exitos h3 {
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue";
+  font-weight: bold;
+  font-size: 50px;
+  font-weight: 450;
+  color: #fdc6c1;
+  padding-top: 60px;
+}
+#main-exitos .btn-group {
+  margin-left: 60px;
+  margin-top: 60px;
+}
+#main-exitos .btn-group .btn {
+  font-family: "Alegreya";
+  font-size: 18px;
+}
+#main-exitos .accordion-collapse .video-abajo2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+}
+#main-exitos .accordion-collapse .video-abajo2 iframe {
+  width: 30%;
+  padding: 0px 12px;
+}
+
+#main-exitos {
+  height: 2900px;
+  width: 100%;
+  background: linear-gradient(45deg, rgb(54, 4, 4), rgb(143, 3, 3), rgb(54, 4, 4), rgb(160, 2, 2));
+  background-size: 400% 400%;
+  position: relative;
+  animation: cambiar 9s linear infinite;
+}
+#main-exitos h3 {
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue";
+  font-weight: bold;
+  font-size: 50px;
+  font-weight: 450;
+  color: #fdc6c1;
+  padding-top: 60px;
+}
+#main-exitos .btn-group {
+  margin-left: 60px;
+  margin-top: 60px;
+}
+#main-exitos .btn-group .btn {
+  font-family: "Alegreya";
+  font-size: 18px;
+}
+#main-exitos .exitosos {
+  width: 80%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+#main-exitos .exitosos .juegoExitosos1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.13);
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.13);
+  -moz-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.13);
+}
+#main-exitos .exitosos .juegoExitosos1 div {
+  height: 100%;
+}
+#main-exitos .exitosos .juegoExitosos1 div img {
+  border-top-left-radius: 15px;
+  width: 100%;
+  height: 100%;
+}
+#main-exitos .exitosos .juegoExitosos1 .relleno-juegos {
+  width: 50%;
+  margin-right: 15px;
+}
+#main-exitos .exitosos .juegoExitosos1 .relleno-juegos h4 {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+#main-exitos .exitosos .juegoExitosos1 .relleno-juegos p {
+  font-family: "Roboto Condensed";
+  text-align: center;
+  color: black;
+  font-size: 23px;
+  margin-top: 30px;
+}
+#main-exitos .accordion {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#main-exitos .accordion .accordion-item {
+  width: 100%;
+}
+#main-exitos .accordion .accordion-item .accordion-header button {
+  height: 20px;
+  background-color: white;
+}
+#main-exitos .accordion .accordion-item .accordion-collapse {
+  height: 730px;
+}
+#main-exitos .accordion .accordion-item .accordion-collapse .accordion-abajo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+#main-exitos .accordion .accordion-item .accordion-collapse .accordion-abajo div {
+  width: 40%;
+  margin-top: 40px;
+}
+#main-exitos .accordion .accordion-item .accordion-collapse .accordion-abajo div .titulos-subAccordion {
+  color: black;
+  font-weight: bold;
+  font-family: "Roboto Condensed";
+  font-size: 16px;
+}
+#main-exitos .accordion .accordion-item .accordion-collapse .accordion-abajo div .parrafos-subtitos {
+  margin-top: -10px;
+}
+#main-exitos .accordion .accordion-item .accordion-collapse .img-abajo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
+#main-exitos .accordion .accordion-item .accordion-collapse .img-abajo img {
+  width: 30%;
+  padding: 0px 12px;
+}
+#main-exitos .relleno-juegos1 {
+  width: 50%;
+  margin-right: 15px;
+}
+#main-exitos .relleno-juegos1 h4 {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+#main-exitos .relleno-juegos1 p {
+  font-family: "Roboto Condensed";
+  text-align: center;
+  color: black;
+  font-size: 23px;
+  margin-top: 30px;
+}
+#main-exitos .accordion-collapse .video-abajo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 30px;
+}
+#main-exitos .accordion-collapse .video-abajo iframe {
+  width: 30%;
+  padding: 0px 12px;
+}
+#main-exitos .exitosos3 {
+  width: 80%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+#main-exitos .exitosos3 .juegoExitosos1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.13);
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.13);
+  -moz-box-shadow: 10px 10px 5px -1px rgba(0, 0, 0, 0.13);
+}
+#main-exitos .exitosos3 .juegoExitosos1 div {
+  height: 100%;
+}
+#main-exitos .exitosos3 .juegoExitosos1 div img {
+  border-top-left-radius: 15px;
+  width: 100%;
+  height: 100%;
+}
+#main-exitos .exitosos3 .juegoExitosos1 .relleno-juegos {
+  width: 50%;
+  margin-right: 15px;
+}
+#main-exitos .exitosos3 .juegoExitosos1 .relleno-juegos h4 {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+#main-exitos .exitosos3 .juegoExitosos1 .relleno-juegos p {
+  font-family: "Roboto Condensed";
+  text-align: center;
+  color: black;
+  font-size: 23px;
+  margin-top: 30px;
+}
+
+#main-pc {
+  height: 2300px;
+  width: 100%;
+  background: linear-gradient(45deg, rgb(54, 4, 4), rgb(143, 3, 3), rgb(54, 4, 4), rgb(160, 2, 2));
+  background-size: 400% 400%;
+  position: relative;
+  animation: cambiar 9s linear infinite;
+}
+#main-pc h3 {
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue";
+  font-weight: bold;
+  font-size: 50px;
+  font-weight: 450;
+  color: #fdc6c1;
+  padding-top: 60px;
+}
+#main-pc .logosPlataformas {
+  margin-top: 50px;
+  margin-left: 820px;
+}
+#main-pc .logosPlataformas a {
+  padding: 0px 4px;
+}
+#main-pc .consolaPc1 {
+  width: 80%;
+  margin: auto;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#main-pc .consolaPc1 .xbox p {
+  width: 80%;
+  color: white;
+  font-size: large;
+  text-align: center;
+}
+#main-pc .consolaPc1 .xbox img {
+  width: 80%;
+}
+#main-pc .consolaPc1 .epic p {
+  text-align: center;
+  color: white;
+  font-size: large;
+  align-items: center;
+}
+#main-pc .consolaPc1 .epic img {
+  width: 100%;
+}
+#main-pc .consolaPc2 {
+  width: 80%;
+  margin: auto;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#main-pc .consolaPc2 .steam p {
+  width: 80%;
+  color: white;
+  font-size: large;
+  text-align: center;
+}
+#main-pc .consolaPc2 .steam img {
+  width: 80%;
+}
+#main-pc .consolaPc2 .riot p {
+  text-align: center;
+  color: white;
+  font-size: large;
+  align-items: center;
+}
+#main-pc .consolaPc2 .riot img {
+  width: 100%;
+}
+#main-pc .consolaPc3 {
+  width: 80%;
+  margin: auto;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#main-pc .consolaPc3 .epic2 {
+  margin-right: auto;
+}
+#main-pc .consolaPc3 .epic2 p {
+  width: 70%;
+  color: white;
+  font-size: large;
+  text-align: center;
+}
+#main-pc .consolaPc3 .epic2 img {
+  width: 650px;
+}
+#main-pc .consolaPc3 .steam2 {
+  margin-left: auto;
+}
+#main-pc .consolaPc3 .steam2 p {
+  color: white;
+  font-size: large;
+  text-align: center;
+}
+#main-pc .consolaPc3 .steam2 img {
+  width: 700px;
+}
+
+#main-nintendo {
   height: 2000px;
   width: 100%;
   background: linear-gradient(45deg, rgb(54, 4, 4), rgb(143, 3, 3), rgb(54, 4, 4), rgb(160, 2, 2));
   background-size: 400% 400%;
   position: relative;
   animation: cambiar 9s linear infinite;
+}
+#main-nintendo h3 {
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue";
+  font-weight: bold;
+  font-size: 50px;
+  font-weight: 450;
+  color: #fdc6c1;
+  padding-top: 60px;
+}
+#main-nintendo .casilla1-prox {
+  width: 70%;
+  margin: auto;
+  box-shadow: 10px 10px 5px -1px rgba(78, 78, 78, 0.13);
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(78, 78, 78, 0.13);
+  -moz-box-shadow: 10px 10px 5px -1px rgba(78, 78, 78, 0.13);
+  display: flex;
+  flex-direction: row;
+}
+#main-nintendo .casilla1-prox img {
+  width: 640px;
+  height: 320px;
+}
+#main-nintendo .casilla1-prox .textoJuegoNintendo1 {
+  color: white;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+#main-nintendo .casilla2-prox {
+  width: 70%;
+  margin: auto;
+  margin-top: 40px;
+  box-shadow: 10px 10px 5px -1px rgba(78, 78, 78, 0.13);
+  -webkit-box-shadow: 10px 10px 5px -1px rgba(78, 78, 78, 0.13);
+  -moz-box-shadow: 10px 10px 5px -1px rgba(78, 78, 78, 0.13);
+  display: flex;
+  flex-direction: row;
+}
+#main-nintendo .casilla2-prox img {
+  width: 640px;
+  height: 320px;
+}
+#main-nintendo .casilla2-prox .textoJuegoNintendo1 {
+  color: white;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+#main-nintendo #proximamente3 {
+  background-image: url("https://nintenduo.com/wp-content/uploads/2023/05/Mortal-Kombat-1-Switch-01.webp");
+  background-size: cover;
+  width: 640px;
+  height: 320px;
+  margin-top: 200px;
+  margin-left: 640px;
+}
+#main-nintendo #proximamente3 .textoJuegoNintendo3 {
+  color: white;
+  padding-top: 330px;
 }
 
 /*# sourceMappingURL=app.css.map */

@@ -1,0 +1,65 @@
+#main-exitos{
+    height: 2900px;
+    width: 100%;
+    background: linear-gradient(45deg,rgb(54, 4, 4), rgb(143, 3, 3), rgb(54, 4, 4),rgb(160, 2, 2) );
+    background-size: 400% 400%;
+    position: relative;
+    animation: cambiar 9s linear infinite;
+        h3{
+            display: flex;
+            justify-content: center;
+            font-family: 'Bebas Neue';
+            font-weight: bold;
+            font-size: 50px;
+            font-weight: 450;
+            color: #fdc6c1;
+            padding-top: 60px;
+        }
+    .btn-group{
+        margin-left: 60px;
+        margin-top: 60px;
+        .btn{
+            font-family: 'Alegreya';
+            font-size: 18px;
+        }
+    }
+    .exitosos{
+        .juegoExitosos1{
+            .relleno-juegosAmong{
+                width: 40%;
+                margin-top: 50px;
+                margin-right: 60px;
+                h4{
+                    color: black;
+                    font-size: 30px;
+                    font-weight: bold;
+                    text-align: center;
+                }
+                p{
+                    font-family: 'Roboto Condensed' ;
+                    text-align: center;
+                    color: black;
+                    font-size: 23px;
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+    .accordion{
+        .accordion-collapse{
+            height: 730px;
+            .img-abajo{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin-top: 40px;
+                img{
+                    width: 10%;
+                    height: 250px;
+                    padding: 0px 12px;
+                }
+            }
+        }    
+    }
+
+}    
