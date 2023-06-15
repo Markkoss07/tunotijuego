@@ -1,0 +1,18 @@
+#main-sobreNos{
+    height: 2000px;
+    width: 100%;
+    background: linear-gradient(45deg,rgb(54, 4, 4), rgb(143, 3, 3), rgb(54, 4, 4),rgb(160, 2, 2) );
+    background-size: 400% 400%;
+    position: relative;
+    animation: cambiar 9s linear infinite;
+        h3{
+            display: flex;
+            justify-content: center;
+            font-family: 'Bebas Neue';
+            font-weight: bold;
+            font-size: 50px;
+            font-weight: 450;
+            color: #fdc6c1;
+            padding-top: 60px;
+        }
+}
