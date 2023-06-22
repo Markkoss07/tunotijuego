@@ -1112,7 +1112,7 @@ footer div .logos-footer a img {
 }
 
 #main-sobreNos {
-  height: 2000px;
+  height: 1800px;
   width: 100%;
   background: linear-gradient(45deg, rgb(54, 4, 4), rgb(143, 3, 3), rgb(54, 4, 4), rgb(160, 2, 2));
   background-size: 400% 400%;
@@ -1128,6 +1128,321 @@ footer div .logos-footer a img {
   font-weight: 450;
   color: #fdc6c1;
   padding-top: 60px;
+}
+#main-sobreNos .subtitulo-sobre {
+  width: 100%;
+  height: 4%;
+  background-color: black;
+  margin-top: 40px;
+}
+#main-sobreNos .subtitulo-sobre p {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  color: white;
+}
+#main-sobreNos section {
+  margin-top: 50px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+}
+#main-sobreNos section .mapa {
+  width: 700px;
+  height: 400px;
+}
+#main-sobreNos section .mapa p {
+  color: white;
+  font-family: "Alegreya";
+  font-size: medium;
+}
+#main-sobreNos section .mapa iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+#main-sobreNos section .texto-sobreNos {
+  width: 50%;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+#main-sobreNos section .texto-sobreNos .quienesNosomos {
+  font-family: "Alegreya";
+  font-size: 26px;
+  font-weight: 400;
+  color: white;
+}
+#main-sobreNos section .texto-sobreNos p {
+  color: white;
+}
+#main-sobreNos .entrevistas {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  margin-left: 350px;
+}
+#main-sobreNos .entrevistas .video1 {
+  padding-right: 12px;
+}
+#main-sobreNos .entrevistas .video2 {
+  padding-left: 12px;
+}
+#main-sobreNos .comentarios {
+  width: 70%;
+  height: 30%;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+#main-sobreNos .comentarios h5 {
+  font-family: "Alegreya";
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+#main-sobreNos .comentarios .primerComentario {
+  display: flex;
+  flex-direction: row;
+  height: max-content;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+#main-sobreNos .comentarios .primerComentario img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+#main-sobreNos .comentarios .primerComentario .texto-comentario {
+  margin-left: 10px;
+  background-color: rgba(128, 128, 128, 0.169);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  width: 600px;
+}
+#main-sobreNos .comentarios .primerComentario .texto-comentario p {
+  margin-left: 10px;
+  font-size: 20px;
+}
+#main-sobreNos .comentarios .primerComentario .texto-comentario div {
+  display: flex;
+  flex-direction: row;
+}
+#main-sobreNos .comentarios .primerComentario .texto-comentario div a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-decoration: none;
+  color: black;
+  background-color: rgba(152, 152, 152, 0.505);
+  border-radius: 10px;
+  width: 40px;
+  margin-top: -10px;
+  height: max-content;
+}
+#main-sobreNos .comentarios .primerComentario .texto-comentario div a img {
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+}
+#main-sobreNos .comentarios .primerComentario .texto-comentario div p {
+  font-size: 14px;
+  margin-top: -10px;
+  background-color: rgba(152, 152, 152, 0.418);
+  border-radius: 5px;
+}
+#main-sobreNos .comentarios .primerComentario .texto-comentario div span {
+  font-size: 14px;
+  margin-top: -10px;
+  margin-left: 10px;
+  color: rgba(129, 128, 128, 0.71);
+}
+#main-sobreNos .comentarios .segundoComentario {
+  display: flex;
+  flex-direction: row;
+  height: max-content;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+#main-sobreNos .comentarios .segundoComentario img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+#main-sobreNos .comentarios .segundoComentario .texto-comentario {
+  margin-left: 10px;
+  background-color: rgba(128, 128, 128, 0.169);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  width: 600px;
+}
+#main-sobreNos .comentarios .segundoComentario .texto-comentario p {
+  margin-left: 10px;
+  font-size: 20px;
+}
+#main-sobreNos .comentarios .segundoComentario .texto-comentario div {
+  display: flex;
+  flex-direction: row;
+}
+#main-sobreNos .comentarios .segundoComentario .texto-comentario div a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-decoration: none;
+  color: black;
+  background-color: rgba(152, 152, 152, 0.505);
+  border-radius: 10px;
+  width: 40px;
+  margin-top: -10px;
+  height: max-content;
+}
+#main-sobreNos .comentarios .segundoComentario .texto-comentario div a img {
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+}
+#main-sobreNos .comentarios .segundoComentario .texto-comentario div p {
+  font-size: 14px;
+  margin-top: -10px;
+  background-color: rgba(152, 152, 152, 0.418);
+  border-radius: 5px;
+}
+#main-sobreNos .comentarios .segundoComentario .texto-comentario div span {
+  font-size: 14px;
+  margin-top: -10px;
+  margin-left: 10px;
+  color: rgba(129, 128, 128, 0.71);
+}
+#main-sobreNos .comentarios .tercerComentario {
+  display: flex;
+  flex-direction: row-reverse;
+  height: max-content;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+#main-sobreNos .comentarios .tercerComentario img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+#main-sobreNos .comentarios .tercerComentario .texto-comentario {
+  margin-right: 10px;
+  background-color: rgba(128, 128, 128, 0.169);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  width: 600px;
+}
+#main-sobreNos .comentarios .tercerComentario .texto-comentario p {
+  margin-left: 10px;
+  font-size: 20px;
+}
+#main-sobreNos .comentarios .tercerComentario .texto-comentario div {
+  display: flex;
+  flex-direction: row;
+}
+#main-sobreNos .comentarios .tercerComentario .texto-comentario div a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-decoration: none;
+  color: black;
+  background-color: rgba(152, 152, 152, 0.505);
+  border-radius: 10px;
+  width: 40px;
+  margin-top: -10px;
+  height: max-content;
+}
+#main-sobreNos .comentarios .tercerComentario .texto-comentario div a img {
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+}
+#main-sobreNos .comentarios .tercerComentario .texto-comentario div p {
+  font-size: 14px;
+  margin-top: -10px;
+  background-color: rgba(152, 152, 152, 0.418);
+  border-radius: 5px;
+}
+#main-sobreNos .comentarios .tercerComentario .texto-comentario div span {
+  font-size: 14px;
+  margin-top: -10px;
+  margin-left: 10px;
+  color: rgba(129, 128, 128, 0.71);
+}
+#main-sobreNos .comentarios .cuartoComentario {
+  display: flex;
+  flex-direction: row;
+  height: max-content;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+#main-sobreNos .comentarios .cuartoComentario img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+#main-sobreNos .comentarios .cuartoComentario .texto-comentario {
+  margin-left: 10px;
+  background-color: rgba(128, 128, 128, 0.169);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 60px;
+  width: 600px;
+}
+#main-sobreNos .comentarios .cuartoComentario .texto-comentario p {
+  margin-left: 10px;
+  font-size: 20px;
+}
+#main-sobreNos .comentarios .cuartoComentario .texto-comentario div {
+  display: flex;
+  flex-direction: row;
+}
+#main-sobreNos .comentarios .cuartoComentario .texto-comentario div a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-decoration: none;
+  color: black;
+  background-color: rgba(152, 152, 152, 0.505);
+  border-radius: 10px;
+  width: 40px;
+  margin-top: -10px;
+  height: max-content;
+}
+#main-sobreNos .comentarios .cuartoComentario .texto-comentario div a img {
+  width: 15px;
+  height: 15px;
+  margin-top: 5px;
+}
+#main-sobreNos .comentarios .cuartoComentario .texto-comentario div p {
+  font-size: 14px;
+  margin-top: -10px;
+  background-color: rgba(152, 152, 152, 0.418);
+  border-radius: 5px;
+}
+#main-sobreNos .comentarios .cuartoComentario .texto-comentario div span {
+  font-size: 14px;
+  margin-top: -10px;
+  margin-left: 10px;
+  color: rgba(129, 128, 128, 0.71);
 }
 
 /*# sourceMappingURL=app.css.map */

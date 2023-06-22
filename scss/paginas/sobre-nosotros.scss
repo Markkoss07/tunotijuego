@@ -1,5 +1,5 @@
 #main-sobreNos{
-    height: 2000px;
+    height: 1800px;
     width: 100%;
     background: linear-gradient(45deg,rgb(54, 4, 4), rgb(143, 3, 3), rgb(54, 4, 4),rgb(160, 2, 2) );
     background-size: 400% 400%;
@@ -14,5 +14,343 @@
             font-weight: 450;
             color: #fdc6c1;
             padding-top: 60px;
+        }
+        .subtitulo-sobre{
+            width: 100%;
+            height: 4%;
+            background-color: black ;
+            margin-top: 40px;
+            p{
+                display: flex;
+                justify-content: center;
+                padding-top:25px;
+                color:white;
+            }
+        }
+        section{
+            // width: 80%;
+            margin-top:50px;
+            margin-left: 100px;
+            display: flex;
+            flex-direction: row;
+            .mapa{
+                width: 700px;
+                height: 400px;
+                p{
+                    color: white;
+                    font-family: 'Alegreya';
+                    font-size:medium;
+                    
+                }
+                iframe{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 15px;
+                }
+            }
+            .texto-sobreNos{
+                width: 50%;
+                margin-top: 50px;
+                margin-left:20px;
+                .quienesNosomos{
+                    font-family: 'Alegreya';
+                    font-size: 26px;
+                    font-weight: 400;
+                    color: white;
+                }
+                p{
+                    color: white;
+                }
+            }
+        }
+        .entrevistas{
+            display: flex;
+            flex-direction: row;
+            margin-top: 80px;
+            margin-left: 350px;
+            .video1{
+                padding-right: 12px;
+            }
+            .video2{
+                padding-left: 12px;
+            }
+        }
+        .comentarios{
+            width: 70%;
+            height: 30%;
+            margin-top: 100px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            border-radius: 8px;
+            h5{
+                font-family: 'Alegreya';
+                font-size: 30px;
+                text-transform:uppercase ;
+                margin-left: 10px;
+            }
+            .primerComentario{
+                display: flex;
+                flex-direction: row;
+                height: max-content;
+                margin-top: 25px;
+                margin-left: 20px;
+                img{
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                }
+                .texto-comentario{
+                    margin-left: 10px;
+                    background-color: rgba(128, 128, 128, 0.169);
+                    border-radius: 15px;
+                    display: flex;
+                    flex-direction: column;
+                    height: 60px;
+                    width: 600px;
+                    p{
+                        margin-left: 10px;
+                        font-size: 20px;
+                    }
+                    div{
+                        display: flex;
+                        flex-direction: row;
+                        
+                        
+                        a{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content:space-around;
+                            text-decoration: none;
+                            color:black;
+                            background-color: rgba(152, 152, 152, 0.505);
+                            border-radius: 10px;
+                            width: 40px;
+                            margin-top: -10px;
+                            height: max-content;
+                            img{
+                                width: 15px;
+                                height: 15px;
+                                margin-top: 5px;
+                                
+                            }
+    
+                        }
+                        p{
+                            font-size: 14px;
+                            margin-top: -10px;
+                            background-color: rgba(152, 152, 152, 0.418);
+                            border-radius: 5px;
+
+                        }
+                        span{
+                            font-size: 14px;
+                            margin-top: -10px;
+                            margin-left: 10px;
+                            color: rgba(129, 128, 128, 0.71);
+                        }
+                    }
+                    
+                }
+            }
+            .segundoComentario{
+                display: flex;
+                flex-direction: row;
+                height: max-content;
+                margin-top: 40px;
+                margin-left: 20px;
+                img{
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                }
+                .texto-comentario{
+                    margin-left: 10px;
+                    background-color: rgba(128, 128, 128, 0.169);
+                    border-radius: 15px;
+                    display: flex;
+                    flex-direction: column;
+                    height: 60px;
+                    width: 600px;
+                    p{
+                        margin-left: 10px;
+                        font-size: 20px;
+                    }
+                    div{
+                        display: flex;
+                        flex-direction: row;
+                        
+                        
+                        a{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content:space-around;
+                            text-decoration: none;
+                            color:black;
+                            background-color: rgba(152, 152, 152, 0.505);
+                            border-radius: 10px;
+                            width: 40px;
+                            margin-top: -10px;
+                            height: max-content;
+                            img{
+                                width: 15px;
+                                height: 15px;
+                                margin-top: 5px;
+                                
+                            }
+    
+                        }
+                        p{
+                            font-size: 14px;
+                            margin-top: -10px;
+                            background-color: rgba(152, 152, 152, 0.418);
+                            border-radius: 5px;
+                        }
+                        span{
+                            font-size: 14px;
+                            margin-top: -10px;
+                            margin-left: 10px;
+                            color: rgba(129, 128, 128, 0.71);
+                        }
+                    }
+                    
+                }
+            }
+            .tercerComentario{
+                display: flex;
+                flex-direction:row-reverse;
+                height: max-content;
+                margin-top: 40px;
+                margin-right: 20px;
+                img{
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                }
+                .texto-comentario{
+                    margin-right: 10px;
+                    background-color: rgba(128, 128, 128, 0.169);
+                    border-radius: 15px;
+                    display: flex;
+                    flex-direction: column;
+                    height: 60px;
+                    width: 600px;
+                    p{
+                        margin-left: 10px;
+                        font-size: 20px;
+                    }
+                    div{
+                        display: flex;
+                        flex-direction: row;
+                        
+                        
+                        a{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content:space-around;
+                            text-decoration: none;
+                            color:black;
+                            background-color: rgba(152, 152, 152, 0.505);
+                            border-radius: 10px;
+                            width: 40px;
+                            margin-top: -10px;
+                            height: max-content;
+                            img{
+                                width: 15px;
+                                height: 15px;
+                                margin-top: 5px;
+                                
+                            }
+    
+                        }
+                        p{
+                            font-size: 14px;
+                            margin-top: -10px;
+                            background-color: rgba(152, 152, 152, 0.418);
+                            border-radius: 5px;
+                        }
+                        span{
+                            font-size: 14px;
+                            margin-top: -10px;
+                            margin-left: 10px;
+                            color: rgba(129, 128, 128, 0.71);
+                        }
+                    }
+                    
+                }
+            }
+            .cuartoComentario{
+                display: flex;
+                flex-direction: row;
+                height: max-content;
+                margin-top: 40px;
+                margin-left: 20px;
+                img{
+                    width: 70px;
+                    height: 70px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                }
+                .texto-comentario{
+                    margin-left: 10px;
+                    background-color: rgba(128, 128, 128, 0.169);
+                    border-radius: 15px;
+                    display: flex;
+                    flex-direction: column;
+                    height: 60px;
+                    width: 600px;
+                    p{
+                        margin-left: 10px;
+                        font-size: 20px;
+                    }
+                    div{
+                        display: flex;
+                        flex-direction: row;
+                        
+                        
+                        a{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content:space-around;
+                            text-decoration: none;
+                            color:black;
+                            background-color: rgba(152, 152, 152, 0.505);
+                            border-radius: 10px;
+                            width: 40px;
+                            margin-top: -10px;
+                            height: max-content;
+                            img{
+                                width: 15px;
+                                height: 15px;
+                                margin-top: 5px;
+                                
+                            }
+    
+                        }
+                        p{
+                            font-size: 14px;
+                            margin-top: -10px;
+                            background-color: rgba(152, 152, 152, 0.418);
+                            border-radius: 5px;
+                        }
+                        span{
+                            font-size: 14px;
+                            margin-top: -10px;
+                            margin-left: 10px;
+                            color: rgba(129, 128, 128, 0.71);
+                        }
+                    }
+                    
+                }
+            }
         }
 }
