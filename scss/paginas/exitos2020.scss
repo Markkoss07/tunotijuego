@@ -15,51 +15,68 @@
             color: #fdc6c1;
             padding-top: 60px;
         }
-    .btn-group{
-        margin-left: 60px;
-        margin-top: 60px;
-        .btn{
-            font-family: 'Alegreya';
-            font-size: 18px;
+        .btn-group{
+            margin-left: 60px;
+            margin-top: 60px;
+            .btn{
+                font-family: 'Alegreya';
+                font-size: 18px;
+            }
         }
-    }
-    .exitosos{
-        .juegoExitosos1{
-            .relleno-juegosAmong{
-                width: 40%;
-                margin-top: 50px;
-                margin-right: 60px;
-                h4{
-                    color: black;
-                    font-size: 30px;
-                    font-weight: bold;
-                    text-align: center;
-                }
-                p{
-                    font-family: 'Roboto Condensed' ;
-                    text-align: center;
-                    color: black;
-                    font-size: 23px;
-                    margin-top: 30px;
+        .exitosos{
+            .juegoExitosos1{
+                .relleno-juegosAmong{
+                    width: 40%;
+                    margin-top: 50px;
+                    margin-right: 60px;
+                    h4{
+                        color: black;
+                        font-size: 30px;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                    p{
+                        font-family: 'Roboto Condensed' ;
+                        text-align: center;
+                        color: black;
+                        font-size: 23px;
+                        margin-top: 30px;
+                    }
                 }
             }
         }
-    }
-    .accordion{
-        .accordion-collapse{
-            height: 730px;
-            .img-abajo{
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                margin-top: 40px;
-                img{
-                    width: 10%;
-                    height: 250px;
-                    padding: 0px 12px;
+        .accordion{
+            .accordion-collapse{
+                height: 730px;
+                .img-abajo{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    margin-top: 40px;
+                    img{
+                        width: 10%;
+                        height: 250px;
+                        padding: 0px 12px;
+                    }
                 }
-            }
-        }    
-    }
+            }    
+        }
+
+        @include mediaquery-mobile(){
+            .exitosos{
+                .juegoExitosos1{
+                    .relleno-juegosAmong{
+                        width: 100% !important;
+                        margin-right: 15px;
+                            h4{
+                                font-size: 20px !important;
+                            }
+                            p{
+                                font-size: 15px !important;
+                            }
+                    }
+                }
+            } 
+        }
 
 }    

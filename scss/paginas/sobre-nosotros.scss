@@ -60,19 +60,34 @@
                 }
                 p{
                     color: white;
+                    font-size: 16px;
                 }
             }
         }
         .entrevistas{
+            width: 100%;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             margin-top: 80px;
-            margin-left: 350px;
-            .video1{
-                padding-right: 12px;
+            margin-left: 0px;
+            p{
+                display: flex;
+                justify-content: center;
+                color: white;
+                font-family: 'Bebas Neue';
+                font-size: 20px;
             }
-            .video2{
-                padding-left: 12px;
+            div{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                .video1{
+                    padding-right: 12px;
+                }
+                .video2{
+                    padding-left: 12px;
+                }
+
             }
         }
         .comentarios{
@@ -90,13 +105,15 @@
                 font-size: 30px;
                 text-transform:uppercase ;
                 margin-left: 10px;
+                display: flex;
+                justify-content: center;
             }
             .primerComentario{
                 display: flex;
-                flex-direction: row;
+                flex-direction: row-reverse;
                 height: max-content;
                 margin-top: 25px;
-                margin-left: 20px;
+                margin-right: 20px;
                 img{
                     width: 70px;
                     height: 70px;
@@ -105,20 +122,20 @@
                     justify-content: center;
                 }
                 .texto-comentario{
-                    margin-left: 10px;
+                    margin-right: 10px;
                     background-color: rgba(128, 128, 128, 0.169);
                     border-radius: 15px;
                     display: flex;
                     flex-direction: column;
                     height: 60px;
-                    width: 600px;
+                    width: 700px;
                     p{
                         margin-left: 10px;
                         font-size: 20px;
                     }
                     div{
                         display: flex;
-                        flex-direction: row;
+                        flex-direction: row-reverse;
                         
                         
                         a{
@@ -132,6 +149,7 @@
                             width: 40px;
                             margin-top: -10px;
                             height: max-content;
+                            font-size: 14px;
                             img{
                                 width: 15px;
                                 height: 15px;
@@ -145,6 +163,7 @@
                             margin-top: -10px;
                             background-color: rgba(152, 152, 152, 0.418);
                             border-radius: 5px;
+                            margin-right: 9px;
 
                         }
                         span{
@@ -224,10 +243,10 @@
             }
             .tercerComentario{
                 display: flex;
-                flex-direction:row-reverse;
+                flex-direction:row;
                 height: max-content;
                 margin-top: 40px;
-                margin-right: 20px;
+                margin-left: 20px;
                 img{
                     width: 70px;
                     height: 70px;
@@ -236,13 +255,13 @@
                     justify-content: center;
                 }
                 .texto-comentario{
-                    margin-right: 10px;
+                    margin-left: 10px;
                     background-color: rgba(128, 128, 128, 0.169);
                     border-radius: 15px;
                     display: flex;
                     flex-direction: column;
                     height: 60px;
-                    width: 600px;
+                    width: 650px;
                     p{
                         margin-left: 10px;
                         font-size: 20px;
@@ -350,6 +369,305 @@
                         }
                     }
                     
+                }
+            }
+            .caja-Comentario{
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                margin-top: auto;
+                img{
+                    width: 30px;
+                    height: 30px;
+                    margin-left: 3px;
+                }
+                .relleno-textoComentario{
+                    width: 100%;
+                    height: max-content;
+                    input{
+                        width: 95%;
+                        background-color: rgba(49, 49, 49, 0.319);
+                        border: 0px solid transparent;
+                        border-radius: 5px;
+                        margin-left: 4px;
+                    }
+                    button{
+                        width: 4%;
+                        height: 28px;
+                        background-color: rgba(0, 0, 130, 0.809);
+                        border: 0px solid transparent;
+                        border-radius: 4px;
+                        margin-bottom:2px ;
+                        img{
+                            width: 20px;
+                            height: 20px;
+                            align-items: center;
+                        }
+                        
+                    }
+                }
+            }
+        }
+
+        @include mediaquery-mobile(){
+            height: 2800px;
+            .subtitulo-sobre{
+                p{
+                    display: flex;
+                    justify-content: center;
+                    padding-top:20px;
+                    color:white;
+                    font-family: 'Alegreya';
+                    font-size: 16px;
+                    text-align: center;
+                }
+            }
+            section{
+                width: 100%;
+                margin-top:50px;
+                margin-left: 0px;
+                display: flex;
+                flex-direction: column-reverse;
+                .mapa{
+                    width: 100%;
+                    height: 400px;
+                    margin-top: 40px;
+                    p{
+                        color: white;
+                        font-family: 'Alegreya';
+                        font-size:medium;
+                        
+                    }
+                    iframe{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 15px;
+                    }
+                }
+                .texto-sobreNos{
+                    width: 100%;
+                    margin-top: 50px;
+                    margin-left:0px;
+                    .quienesNosomos{
+                        font-family: 'Alegreya';
+                        font-size: 26px;
+                        font-weight: 400;
+                        color: white;
+                        display: flex;
+                        justify-content: center;
+                    }
+                    p{
+                        color: white;
+                        font-size: 16px;
+                        text-align: center;
+                    }
+                }
+            }
+            .entrevistas{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-top: 120px;
+                margin-left: 0px;
+                p{
+                    display: flex;
+                    justify-content: center;
+                    color: white;
+                    font-family: 'Bebas Neue';
+                    font-size: 20px;
+                    text-align: center;
+                }
+                div{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    .video1{
+                        width: 100%;
+                        padding-right: 0px;
+                    }
+                    .video2{
+                        width: 100%;
+                        padding-left: 0px;
+                        padding-top: 6px;
+                    }
+    
+                }
+            }
+            .comentarios{
+                width: 100%;
+                height: 20%;
+                margin-left: 0px;
+                margin-right: 0px;
+                .primerComentario{
+                    margin-top: 25px;
+                    margin-right: 20px;
+                    .texto-comentario{
+                        margin-right: 10px;
+                        height: 60px;
+                        width: 700px;
+                        p{
+                            font-size: 13px;
+                        }
+                        div{                    
+                            a{
+                                font-size: 10px;
+                                img{
+                                    width: 12px;
+                                    height: 12px;
+                                    margin-top: 1px;                                    
+                                }
+        
+                            }
+                            p{
+                                font-size: 10px;
+                                margin-right: 9px;
+    
+                            }
+                            span{
+                                font-size: 11px;
+                                margin-top: -10px;
+                            }
+                        }
+                        
+                    }
+                }
+                .segundoComentario{
+                    margin-top: 60px;
+                    margin-left: 2px;
+                    img{
+                        width: 95px;
+                        height: 60px;
+                    }
+                    .texto-comentario{
+                        height: 60px;
+                        width: 600px;
+                        margin-left: 5px;
+                        p{
+                            font-size: 13px;
+                        }
+                        div{
+                            a{
+                                margin-top: 10px;
+                                font-size: 10px;
+                                img{
+                                    width: 12px;
+                                    height: 12px;
+                                    margin-top: 1px;
+                                    
+                                }
+        
+                            }
+                            p{
+                                font-size: 10px;
+                                margin-top: 10px;
+                            }
+                            span{
+                                margin-top: 10px;
+                                font-size: 11px;
+                            }
+                        }
+                        
+                    }
+                }
+                .tercerComentario{
+                    margin-top: 60px;
+                    margin-left: 2px;
+                    img{
+                        width: 95px;
+                        height: 60px;
+                    }
+                    .texto-comentario{
+                        height: 60px;
+                        width: 600px;
+                        margin-left: 5px;
+                        p{
+                            font-size: 13px;
+                        }
+                        div{
+                            a{
+                                margin-top: 10px;
+                                font-size: 10px;
+                                img{
+                                    width: 12px;
+                                    height: 12px;
+                                    margin-top: 1px;
+                                    
+                                }
+        
+                            }
+                            p{
+                                font-size: 10px;
+                                margin-top: 10px;
+                            }
+                            span{
+                                margin-top: 10px;
+                                font-size: 11px;
+                            }
+                        }
+                        
+                    }
+                }
+                .cuartoComentario{
+                    margin-top: 60px;
+                    margin-left: 2px;
+                    img{
+                        width: 60px;
+                        height: 60px;
+                    }
+                    .texto-comentario{
+                        height: 60px;
+                        width: 600px;
+                        margin-left: 5px;
+                        p{
+                            font-size: 13px;
+                        }
+                        div{
+                            a{
+                                margin-top: 10px;
+                                font-size: 10px;
+                                img{
+                                    width: 12px;
+                                    height: 12px;
+                                    margin-top: 1px;
+                                    
+                                }
+        
+                            }
+                            p{
+                                font-size: 10px;
+                                margin-top: 10px;
+                            }
+                            span{
+                                margin-top: 10px;
+                                font-size: 11px;
+                            }
+                        }
+                        
+                    }
+                }
+                .caja-Comentario{
+                    width: 100%;
+                    img{
+                        width: 30px;
+                        height: 30px;
+                        margin-left: 3px;
+                    }
+                    .relleno-textoComentario{
+                        width: 100%;
+                        input{
+                            width: 90%;
+                        }
+                        button{
+                            width: 7%;
+                            height: 22px;
+                            img{
+                                width: 12px;
+                                height: 12px;
+                            }
+                            
+                        }
+                    }
                 }
             }
         }

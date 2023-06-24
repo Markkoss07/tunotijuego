@@ -23,4 +23,17 @@ footer{
             }
         }
     }
+    
+    @include mediaquery-mobile(){
+        div{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            bottom: 0px;
+            p{
+                margin-top:7px;
+                margin-left: 5px;
+            }
+        }
+    }
 }

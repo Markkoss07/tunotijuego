@@ -15,26 +15,371 @@
             color: #fdc6c1;
             padding-top: 60px;
         }
-    .btn-group{
-        margin-left: 60px;
-        margin-top: 60px;
-        .btn{
-            font-family: 'Alegreya';
-            font-size: 18px;
-        }
-    }
-
-    .accordion-collapse{
-        .video-abajo2{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            margin-top: 20px;
-            iframe{
-                width: 30%;
-                padding: 0px 12px; 
+        .btn-group{
+            margin-left: 60px;
+            margin-top: 60px;
+            .btn{
+                font-family: 'Alegreya';
+                font-size: 18px;
             }
         }
-    }
+        .exitosos{
+            width: 80%;
+            height: 15%;
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color:white;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            .juegoExitosos1{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 100%;
+                box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.13);
+                -webkit-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.13);
+                -moz-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.13);
+                div{
+                    height: 100%;
+                    img{
+                        border-top-left-radius: 15px;
+                        width: 100%;
+                        height: 100%;
+                    } 
+                }
+                .relleno-juegos1{
+                    width: 50%;
+                    margin-right: 15px;
+                    h4{
+                        color: black;
+                        font-size: 30px;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                    p{
+                        font-family: 'Roboto Condensed' ;
+                        text-align: center;
+                        color: black;
+                        font-size: 23px;
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+        .accordion{
+            width: 80%;
+            display: flex;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            .accordion-item{
+                width: 100%;
+                .accordion-header{
+                    button{
+                        height: 20px;
+                        background-color:white;
+                    }    
+                } 
+                .accordion-collapse{
+                    height: 730px;
+                    .accordion-abajo{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        width: 90%;
+                        margin-left: auto;
+                        margin-right: auto;
+                        margin-top: 30px;
+                        
+                        div{
+                            width: 40%;
+                            margin-top:40px;
+                            .titulos-subAccordion{
+                                color: black;
+                                font-weight: bold;
+                                font-family: 'Roboto Condensed';
+                                font-size: 16px;
+                            }
+                            .parrafos-subtitos{
+                                margin-top: -10px;
+                            }                       
+                        }
+                    }
+                    .img-abajo{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        margin-top: 40px;
+                        img{
+                            width: 30%;
+                            padding: 0px 12px;
+                        }
+                    }
+                }   
+            }
+            
+        }
+        .exitosos2{
+            width: 80%;
+            height: 15%;
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color:white;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            .juegoExitosos2{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 100%;
+                box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.13);
+                -webkit-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.13);
+                -moz-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.13);
+                div{
+                    height: 100%;
+                    img{
+                        border-top-left-radius: 15px;
+                        width: 100%;
+                        height: 100%;
+                    } 
+                }
+                .relleno-juegos2{
+                    width: 50%;
+                    margin-right: 15px;
+                    h4{
+                        color: black;
+                        font-size: 30px;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                    p{
+                        font-family: 'Roboto Condensed' ;
+                        text-align: center;
+                        color: black;
+                        font-size: 23px;
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+        .accordion-collapse{
+            .video-abajo2{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin-top: 20px;
+                iframe{
+                    width: 30%;
+                    padding: 0px 12px; 
+                }
+            }
+        }
+        .exitosos3{
+            width: 80%;
+            height: 15%;
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color:white;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            .juegoExitosos3{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 100%;
+                box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.13);
+                -webkit-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.13);
+                -moz-box-shadow: 10px 10px 5px -1px rgba(0,0,0,0.13);
+                div{
+                    height: 100%;
+                    img{
+                        border-top-left-radius: 15px;
+                        width: 100%;
+                        height: 100%;
+                    } 
+                }
+                .relleno-juegos3{
+                    width: 50%;
+                    margin-right: 15px;
+                    h4{
+                        color: black;
+                        font-size: 30px;
+                        font-weight: bold;
+                        text-align: center;
+                    }
+                    p{
+                        font-family: 'Roboto Condensed' ;
+                        text-align: center;
+                        color: black;
+                        font-size: 23px;
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+
+        @include mediaquery-mobile(){ 
+            height: 4000px !important;
+                h3{   
+                    text-align: center;
+                }
+    
+                .btn-group{
+                    margin-left: 0px !important;
+                    margin-top: 30px;
+                    .btn{
+                        font-size: 14px !important;
+                    }
+                }
+    
+                .exitosos{
+                    width: 98% !important;
+                    .juegoExitosos1{
+                        display: flex;
+                        flex-direction: column !important;
+                        justify-content: none;
+                        width: 100% !important;
+                        div{
+                            height: 100%;
+                            img{
+                                width: 100%;
+                                height: 90% !important;
+                            } 
+                        } 
+                        .relleno-juegos1{
+                            width: 100% !important;
+                            margin-right: 15px;
+                            h4{
+                                font-size: 20px !important;
+                            }
+                            p{
+                                font-size: 15px !important;
+                            }
+                        }                   
+                    }                    
+                }
+                .accordion{
+                    width: 98% !important;
+                    display: flex;
+                    justify-content: center;
+                    .accordion-item{
+                        width: 100%;                     
+                        .accordion-collapse{
+                            height: max-content !important;
+                            .accordion-abajo{
+                                display: flex;
+                                flex-direction: column !important;
+                                
+                                
+                                iframe{
+                                    width: 100%;
+                                    height: 250px;
+                                }
+                                
+                                div{
+                                    width: 100% !important;
+                                    display: flex;
+                                    flex-direction: column;
+                                    .titulos-subAccordion{
+                                        display: flex;
+                                        justify-content: center;
+                                    }
+                                    .parrafos-subtitos{
+                                        margin-top: -10px;
+                                        font-size: 14px;
+                                    }                       
+                                }
+                            }
+                            .img-abajo{
+                                display: flex;
+                                flex-direction: column !important;
+                                
+                                img{
+                                    width: 100% !important;
+                                    padding: 4px 0px !important;
+                                }
+                            }
+                        }   
+                    }
+                    
+                }
+                .exitosos2{
+                    width: 98% !important;
+                    .juegoExitosos2{
+                        display: flex;
+                        flex-direction: column !important;
+                        justify-content: none;
+                        width: 100% !important;
+                        div{
+                            height: 100%;
+                            img{
+                                width: 100%;
+                                height: 90% !important;
+                            } 
+                        }                    
+                    }
+                    .relleno-juegos2{
+                        width: 100% !important;
+                        margin-right: 15px;
+                        h4{
+                            font-size: 20px !important;
+                        }
+                        p{
+                            font-size: 15px !important;
+                        }
+                    }
+                }
+                .exitosos3{
+                    width: 98% !important;
+                    .juegoExitosos3{
+                        display: flex;
+                        flex-direction: column !important;
+                        justify-content: none;
+                        width: 100% !important;
+                        div{
+                            height: 100%;
+                            img{
+                                width: 100%;
+                                height: 90% !important;
+                            } 
+                        }                    
+                    }
+                    .relleno-juegos3{
+                        width: 100% !important;
+                        margin-right: 15px;
+                        h4{
+                            font-size: 20px !important;
+                        }
+                        p{
+                            font-size: 15px !important;
+                        }
+                    }
+                }
+                .accordion-collapse{
+                    .video-abajo2{
+                        display: flex;
+                        flex-direction: column !important;
+                        justify-content: center;
+                        margin-top: 30px;
+                        iframe{
+                            width: 100% !important;
+                            padding: 4px 0px !important; 
+                        }
+                    }
+                }
+    
+                
+                
+                
+        }
 
 }  

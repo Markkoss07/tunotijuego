@@ -9,27 +9,57 @@
             display: flex;
             justify-content: center;
             font-family: 'Bebas Neue';
-            font-weight: bold;
             font-size: 50px;
             font-weight: 450;
             color: #fdc6c1;
             padding-top: 60px;
         }
-    .logosPlataformas{
-        margin-top: 50px;
-        margin-left: 820px;
-        a{
-            padding: 0px 4px;
+        .logosPlataformas{
+            margin-top: 50px;
+            margin-left: 820px;
+            a{
+                padding: 0px 4px;
+            }
         }
-    }
-    .consolaPc1{
-        width: 80%;
-        margin: auto;
-        margin-top: 70px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-            .xbox{
+        .consolaPc1{
+            width: 80%;
+            margin: auto;
+            margin-top: 70px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+                .xbox{
+                    p{
+                        width: 80%;
+                        color: white;
+                        font-size: large;
+                        text-align: center;
+                    }
+                    img{
+                        width: 80%;
+                    }
+                }
+                .epic{
+                    p{
+                        text-align: center;
+                        color: white;
+                        font-size: large; 
+                        align-items: center;               
+                    }
+                    img{
+                        width: 100%;
+                        
+                    }
+                }
+        }
+        .consolaPc2{
+            width: 80%;
+            margin: auto;
+            margin-top: 70px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            .steam{
                 p{
                     width: 80%;
                     color: white;
@@ -40,7 +70,7 @@
                     width: 80%;
                 }
             }
-            .epic{
+            .riot{
                 p{
                     text-align: center;
                     color: white;
@@ -52,67 +82,154 @@
                     
                 }
             }
-    }
-    .consolaPc2{
-        width: 80%;
-        margin: auto;
-        margin-top: 70px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        .steam{
-            p{
-                width: 80%;
-                color: white;
-                font-size: large;
-                text-align: center;
+        }
+        .consolaPc3{
+            width: 80%;
+            margin: auto;
+            margin-top: 70px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            .epic2{
+                margin-right: auto;
+                p{
+                    width: 70%;
+                    color: white;
+                    font-size: large;
+                    text-align: center;
+                }
+                img{
+                    width: 650px;
+                }
             }
-            img{
-                width: 80%;
+            .steam2{
+                margin-left: auto;
+                p{
+                    color: white;
+                    font-size: large;
+                    text-align: center;
+                }
+                img{
+                    width: 700px;
+                }
             }
         }
-        .riot{
-            p{
-                text-align: center;
-                color: white;
-                font-size: large; 
-                align-items: center;               
+
+        @include mediaquery-mobile(){
+            height: 3300px;
+            h3{
+                display: flex;
+                justify-content: center;
+                font-family: 'Bebas Neue';
+                font-size: 50px;
+                font-weight: 450;
+                color: #fdc6c1;
+                padding-top: 60px; 
             }
-            img{
+
+            .logosPlataformas{
+                margin-top: 50px;
+                margin-left: 80px;
+                a{
+                    padding: 0px 4px;
+                }
+            }
+            .consolaPc1{
                 width: 100%;
-                
+                margin: 0px;
+                margin-top: 70px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                    .xbox{
+                        p{
+                            width: 100%;
+                            color: white;
+                            font-size: 16px;
+                            text-align: center;
+                        }
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .epic{
+                        margin-top: 50px;
+                        p{
+                            text-align: center;
+                            color: white;
+                            font-size: 16px; 
+                            align-items: center;               
+                        }
+                        img{
+                            width: 100%;
+                            
+                        }
+                    }
+            }
+            .consolaPc2{
+                width: 100%;
+                margin: 0px;
+                margin-top: 50px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .steam{
+                    p{
+                        width: 100%;
+                        color: white;
+                        font-size: 16px;
+                        text-align: center;
+                    }
+                    img{
+                        width: 100%;
+                    }
+                }
+                .riot{
+                    margin-top: 50px;
+                    p{
+                        text-align: center;
+                        color: white;
+                        font-size: 16px; 
+                        align-items: center;               
+                    }
+                    img{
+                        width: 100%;
+                        
+                    }
+                }
+            }
+            .consolaPc3{
+                width: 100%;
+                margin: 0px;
+                margin-top: 50px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                .epic2{
+                    margin-right: 0px;
+                    p{
+                        width: 100%;
+                        color: white;
+                        font-size: 16px;
+                        text-align: center;
+                    }
+                    img{
+                        width: 100%;
+                    }
+                }
+                .steam2{
+                    margin-left: 0px;
+                    margin-top: 50px;
+                    p{
+                        color: white;
+                        font-size: 16px;
+                        text-align: center;
+                        width: 100%;
+                    }
+                    img{
+                        width: 100%;
+                    }
+                }
             }
         }
-    }
-    .consolaPc3{
-        width: 80%;
-        margin: auto;
-        margin-top: 70px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        .epic2{
-            margin-right: auto;
-            p{
-                width: 70%;
-                color: white;
-                font-size: large;
-                text-align: center;
-            }
-            img{
-                width: 650px;
-            }
-        }
-        .steam2{
-            margin-left: auto;
-            p{
-                color: white;
-                font-size: large;
-                text-align: center;
-            }
-            img{
-                width: 700px;
-            }
-        }
-    }
 }
