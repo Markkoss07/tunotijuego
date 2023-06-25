@@ -246,6 +246,7 @@
             
         }
 
+        //se que puede llegar a estar mal el poner !important pero no encontre una solución para esto, porque se que el problema de q no me deje ponerlo solo es el bootstrap.
     @include mediaquery-mobile(){ 
         height: 3900px !important;
             h3{   
